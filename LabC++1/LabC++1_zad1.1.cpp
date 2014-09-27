@@ -1,0 +1,38 @@
+// Zad 1.1 Przekopiowane
+//---------------------------------------
+#include <cstdlib>
+#include <iostream>
+//---------------------------------------
+//dyrektywy preprocesora
+using namespace std;
+int main(int argc, char *argv[])
+{
+int liczba, wynik;
+char ch;
+int i;
+float f;
+cout<<"Prosty program";
+cout<<"w C++.\n";
+cout<<"Podaj liczbe: ";
+cin>>liczba;
+wynik=2*liczba;
+cout<<"Wynik to "<<wynik<<"."<<endl;
+//deklaracje zmiennych
+//wywołanie funkcji WY
+//wywołanie funkcji WE
+//instrukcja przypisania
+/*konwersje typów*/
+f=i=ch='A';
+cout<<"ch="<<ch<<" i="<<i<<" f="<<f<<"\n";
+ch=ch+1;
+i=f+2*ch;
+i=f+2.0*ch+i;
+cout<<"ch="<<ch<<" i="<<i<<" f="<<f<<"\n";
+i=1.6+1.7;
+cout<<"i="<<i<<endl;
+i=int(1.6)+int(1.7);
+cout<<"i="<<i<<endl;
+system("PAUSE");
+//polecenie konsoli zatrzymujące program
+return EXIT_SUCCESS;
+}
